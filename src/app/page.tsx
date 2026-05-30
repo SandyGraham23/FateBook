@@ -290,15 +290,106 @@ export default function Home() {
           </nav>
 
           <div className={styles.scene} aria-hidden="true">
+            <div className={styles.posterNoise} />
+            <div className={styles.topWords}>
+              <span>ABOUT LIFE</span>
+              <span>CHOOSE YOUR PATH</span>
+              <span>OPEN FATE</span>
+            </div>
             <div className={styles.door} />
-            <div className={styles.palm}>
-              <div className={`${styles.finger} ${styles.fingerOne}`} />
-              <div className={`${styles.finger} ${styles.fingerTwo}`} />
-              <div className={`${styles.finger} ${styles.fingerThree}`} />
-              <div className={`${styles.finger} ${styles.fingerFour}`} />
-              <div className={`${styles.finger} ${styles.thumb}`} />
-              <div className={styles.palmBase} />
-              <div className={styles.line} />
+            <svg
+              className={styles.palmArt}
+              viewBox="0 0 760 620"
+              role="img"
+              aria-label="Open hand holding a star"
+            >
+              <defs>
+                <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+                  <feGaussianBlur stdDeviation="9" result="blur" />
+                  <feColorMatrix
+                    in="blur"
+                    type="matrix"
+                    values="1 0 0 0 1 0 0.72 0 0 0.62 0 0 0.2 0 0.05 0 0 0 1 0"
+                  />
+                  <feMerge>
+                    <feMergeNode />
+                    <feMergeNode in="SourceGraphic" />
+                  </feMerge>
+                </filter>
+                <linearGradient id="handFill" x1="18%" y1="18%" x2="86%" y2="92%">
+                  <stop offset="0" stopColor="#f9df84" />
+                  <stop offset="0.38" stopColor="#6fd6d5" />
+                  <stop offset="0.78" stopColor="#38bcd4" />
+                  <stop offset="1" stopColor="#168ed0" />
+                </linearGradient>
+                <linearGradient id="warmFill" x1="20%" y1="20%" x2="74%" y2="78%">
+                  <stop offset="0" stopColor="#fff2a8" />
+                  <stop offset="0.55" stopColor="#ffbd3f" />
+                  <stop offset="1" stopColor="#f17224" />
+                </linearGradient>
+              </defs>
+              <path
+                className={styles.handShadow}
+                d="M85 344 C160 397 237 420 335 405 C372 399 402 388 431 375 C474 356 515 351 556 372 L723 459 C744 470 758 494 749 515 C738 542 704 548 675 534 L529 462 C482 439 440 438 389 461 C317 493 240 505 162 477 C95 452 44 409 20 371 C2 342 17 316 46 321 C58 323 70 333 85 344 Z"
+              />
+              <path
+                className={styles.handShape}
+                d="M75 325 C134 379 223 407 327 389 C370 382 406 367 441 348 C480 327 526 332 569 358 L721 449 C746 464 756 494 741 516 C727 537 694 541 664 523 L522 441 C482 418 439 419 390 442 C310 479 218 486 135 448 C78 422 36 383 14 347 C-6 314 15 287 49 300 C57 303 66 313 75 325 Z"
+              />
+              <path
+                className={styles.fingerStroke}
+                d="M124 309 C97 239 86 177 110 156 C136 135 164 192 184 252"
+              />
+              <path
+                className={styles.fingerStroke}
+                d="M185 264 C170 163 177 89 210 82 C248 74 259 168 266 253"
+              />
+              <path
+                className={styles.fingerStroke}
+                d="M274 257 C279 166 301 93 337 98 C372 103 365 188 351 267"
+              />
+              <path
+                className={styles.fingerStroke}
+                d="M356 288 C397 217 443 164 473 183 C503 202 463 272 418 331"
+              />
+              <path
+                className={styles.thumbStroke}
+                d="M96 347 C145 344 188 352 229 382"
+              />
+              <path
+                className={styles.warmPatch}
+                d="M88 319 C161 357 240 372 325 360 C366 354 404 336 441 317 C400 391 314 425 213 405 C145 392 96 361 73 335 C63 323 70 310 88 319 Z"
+              />
+              <path
+                className={styles.coolPatch}
+                d="M418 359 C464 338 506 347 554 374 L708 462 C726 472 731 495 719 507 C706 520 681 515 656 500 L515 421 C482 402 447 402 407 421 C377 435 344 445 308 450 C348 416 381 377 418 359 Z"
+              />
+              <path
+                className={styles.lineArt}
+                d="M122 348 C195 376 272 379 351 353"
+              />
+              <path
+                className={styles.lineArt}
+                d="M180 407 C238 424 301 421 363 395"
+              />
+              <path
+                className={styles.lineArt}
+                d="M396 352 C441 367 481 392 515 428"
+              />
+              <path
+                className={styles.star}
+                filter="url(#glow)"
+                d="M280 255 L306 310 L366 330 L309 352 L286 410 L262 354 L204 334 L260 309 Z"
+              />
+              <path
+                className={styles.starCore}
+                d="M282 283 L298 318 L335 331 L299 344 L286 380 L271 346 L234 334 L269 319 Z"
+              />
+            </svg>
+            <div className={styles.sparkles}>
+              {Array.from({ length: 18 }, (_, index) => (
+                <span key={index} />
+              ))}
             </div>
           </div>
 
