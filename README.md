@@ -7,3 +7,11 @@ Repository: [https://github.com/SandyGraham23/FateBook.git](https://github.com/S
 ## Overview
 
 FateBook is built on the Next.js App Router structure.
+
+The project is ready for local development and can be extended by editing the application files in the `app` directory.
+
+The default entry page can be found at:
+
+```txt
+app/page.tsx
+```
