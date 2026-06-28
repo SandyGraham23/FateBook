@@ -85,3 +85,11 @@ bun dev
 After the server starts, open the application in your browser:
 
 [http://localhost:3000](http://localhost:3000)
+
+## Editing the Application
+
+To begin making changes, edit:
+
+```txt
+app/page.tsx
+```
