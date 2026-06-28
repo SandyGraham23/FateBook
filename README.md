@@ -129,3 +129,12 @@ To create a production build, run:
 ```bash
 npm run build
 ```
+
+If you use another package manager, use its equivalent build command.
+
+## Start
+
+After building the project, you can start the production server with:
+
+```bash
+npm run start
