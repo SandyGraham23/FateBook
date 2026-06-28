@@ -147,3 +147,11 @@ If linting is configured in the project, run:
 ```bash
 npm run lint
 ```
+
+If the command is unavailable, check `package.json` for the scripts currently defined in the project.
+
+## Deployment
+
+FateBook can be deployed anywhere that supports Next.js applications.
+
+For Next.js-specific deployment guidance, see the official documentation:
