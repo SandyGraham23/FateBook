@@ -111,3 +111,11 @@ tsconfig.json
 ```
 
 The exact structure may change as the project grows.
+
+Use the `app` directory for application routes, layouts, and pages.
+
+Use the `public` directory for static assets.
+
+## Fonts
+
+This project uses `next/font` to optimize and load Geist.
