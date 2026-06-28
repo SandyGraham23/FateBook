@@ -164,3 +164,12 @@ Helpful Next.js resources:
 
 - [Next.js Documentation](https://nextjs.org/docs)
 - [Learn Next.js](https://nextjs.org/learn)
+- [Next.js GitHub Repository](https://github.com/vercel/next.js)
+
+## Notes
+
+This README reflects the current starter state of the project.
+
+As FateBook grows, update this file with project-specific setup steps, environment variables, commands, and usage examples.
+
+Keep installation and development instructions current so contributors can get started quickly.
