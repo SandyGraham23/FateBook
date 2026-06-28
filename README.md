@@ -119,3 +119,13 @@ Use the `public` directory for static assets.
 ## Fonts
 
 This project uses `next/font` to optimize and load Geist.
+
+Next.js handles font optimization as part of the application build process.
+
+## Build
+
+To create a production build, run:
+
+```bash
+npm run build
+```
