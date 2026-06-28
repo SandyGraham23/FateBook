@@ -49,3 +49,13 @@ git clone https://github.com/SandyGraham23/FateBook.git
 ```
 
 Move into the project directory:
+
+```bash
+cd FateBook
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
