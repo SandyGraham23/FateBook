@@ -59,3 +59,12 @@ Install dependencies:
 ```bash
 npm install
 ```
+
+If you use a different package manager, install dependencies with the equivalent command for your environment.
+
+## Running the Development Server
+
+Start the development server with one of the following commands:
+
+```bash
+npm run dev
