@@ -155,3 +155,12 @@ If the command is unavailable, check `package.json` for the scripts currently de
 FateBook can be deployed anywhere that supports Next.js applications.
 
 For Next.js-specific deployment guidance, see the official documentation:
+
+[Next.js Deployment Documentation](https://nextjs.org/docs/app/building-your-application/deploying)
+
+## Learn More
+
+Helpful Next.js resources:
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Learn Next.js](https://nextjs.org/learn)
