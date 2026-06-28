@@ -32,3 +32,12 @@ Changes made during development are reflected in the browser automatically.
 Before running the project, make sure you have a JavaScript package manager installed.
 
 Common options include:
+
+- npm
+- Yarn
+- pnpm
+- Bun
+
+You will also need a compatible Node.js environment for running a Next.js application.
+
+## Getting Started
