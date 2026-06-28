@@ -77,3 +77,11 @@ yarn dev
 ```bash
 pnpm dev
 ```
+
+```bash
+bun dev
+```
+
+After the server starts, open the application in your browser:
+
+[http://localhost:3000](http://localhost:3000)
