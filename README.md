@@ -138,3 +138,12 @@ After building the project, you can start the production server with:
 
 ```bash
 npm run start
+```
+
+## Linting
+
+If linting is configured in the project, run:
+
+```bash
+npm run lint
+```
