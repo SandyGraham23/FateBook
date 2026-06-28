@@ -41,3 +41,11 @@ Common options include:
 You will also need a compatible Node.js environment for running a Next.js application.
 
 ## Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/SandyGraham23/FateBook.git
+```
+
+Move into the project directory:
