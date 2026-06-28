@@ -93,3 +93,13 @@ To begin making changes, edit:
 ```txt
 app/page.tsx
 ```
+
+The page will update as you save changes while the development server is running.
+
+Additional routes and UI can be added using the standard Next.js App Router conventions.
+
+## Project Structure
+
+A typical Next.js application created with `create-next-app` includes files and directories such as:
+
+```txt
