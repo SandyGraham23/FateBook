@@ -103,3 +103,11 @@ Additional routes and UI can be added using the standard Next.js App Router conv
 A typical Next.js application created with `create-next-app` includes files and directories such as:
 
 ```txt
+app/
+public/
+package.json
+next.config.*
+tsconfig.json
+```
+
+The exact structure may change as the project grows.
