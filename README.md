@@ -15,3 +15,12 @@ The default entry page can be found at:
 ```txt
 app/page.tsx
 ```
+
+Changes made during development are reflected in the browser automatically.
+
+## Features
+
+- Built with [Next.js](https://nextjs.org)
+- Created using `create-next-app`
+- Uses the App Router project structure
+- Supports local development with hot reloading
