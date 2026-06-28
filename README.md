@@ -24,3 +24,11 @@ Changes made during development are reflected in the browser automatically.
 - Created using `create-next-app`
 - Uses the App Router project structure
 - Supports local development with hot reloading
+- Uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts)
+- Includes the [Geist](https://vercel.com/font) font family through Next.js font optimization
+
+## Requirements
+
+Before running the project, make sure you have a JavaScript package manager installed.
+
+Common options include:
